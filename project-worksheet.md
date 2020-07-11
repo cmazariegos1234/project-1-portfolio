@@ -2,10 +2,6 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
@@ -18,15 +14,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My final project will be my Resume/Work-seeking portfolio, it will have links to relevant sites and projects that I have worked on with my time at GA SEIR/TechHire. I will have a small introduction about myself in the second page, the third page will have my skills, and my last page with have social icons with my project links. 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+Link to my google sheet [here]: (https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+My wireframe's are uploaded to cloudinary.
 
 - [Mobile](https://res.cloudinary.com/techhire/image/upload/v1594490856/Mobile_Portfolio_1_GA_eek60m.png)
 - [Tablet](https://res.cloudinary.com/techhire/image/upload/v1594491704/Tablet_Portfolio_1_GA_bvcfri.png)
@@ -34,7 +30,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 Wireframing Resources:
 
-- Used - [Figma](https://www.figma.com/)
+- I used - [Figma] to create my Wireframes(https://www.figma.com/)
 
 
 ## Time/Priority Matrix 
@@ -47,26 +43,53 @@ Now create a separate list starting with A and assign it one of the features.  C
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
-### MVP/PostMVP - 5min
+## Timeline & Priority Matrix 
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+|Deliverable	| Status	| Time Spent |
+| --- | :---: |  :---: | 
+| Saturday - July 11 | Research ideas	| Complete 	| 30 mins |
+| Saturday - July 11   | Wireframes / Priority Matrix / Timeline	| Complete	| 4 hrs |
+| Monday - July 13 (After approval)  | HTML Framing	| Incomplete | 1 hr |
+| Tuesday - July 14  | CSS Grid/Flexbox outline Mobile	| Incomplete | 5 hrs |	
+| Tuesday - July 14  | CSS Grid/Flexbox outline Tablet & Desktop  | Incomplete | 7 hrs |	
+| Wednesday - July 15  | Create second page for "About Me Info" & part 1 of "Skills" page	 | Incomplete | 2 hrs |	
+| Thursday - July 16  | Email Subscription Jquery - under "About Me Info" page	| Incomplete | 3 hrs |	
+| Friday - July 17 | Work on Navigation Hamburger Bar with Jquery  | Incomplete | 7 hrs |
+| Saturday - July 18  | Create third page for "Portfolio" squares | Incomplete  | 3 hrs |		
+| Saturday - July 18 | Side-bar navigation with icon images	 | Incomplete | 1 hr |		
+| Sunday - July 19 | Finalize Project Documentation  | Incomplete | 3 hrs |		
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
-
-#### PostMVP 
-
-- Anything else that is not MVP
 
 ## Functional Components
 
 Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
+
+## Functional Components ^^ update w/ your info
+
+| Component | Priority	| Estim Hrs |	Inves. Hrs	| Actual Hrs|
+| --- | :---: |  :---: | :---: | :---: |
+| Research |	H	| 0.5	| 1 |	1 |
+| Admin setup	| H	| 1	| 2	| 2 |
+| Wire drawing	| H |	0.5	| 1	| 1 |
+| Research Grid & Flex 	| H	| 1	| 2	| 2 |
+| Compile List of Proj	| H	| 1	| 2 | 2 |
+| Implement Grid & Flex	| H	| 2	| 7 | 7 |
+| Implement Mobile Responsiveness	| H	| 2 | 7 | 7 |		
+| Create Contact Form w Jquery	| H |	1 | 3 | 3 |	
+| Create About Me	| H |	1 | 2 | 2 |	
+| Proj Nav with jQuery Filter	| H |	3 | 7 | 7 |	
+| Hamburger	| H |	1 | 3 | 3 |	
+| Hide Footer	| M |	1 |  |  |	
+| Scroll page pop	| M |	2 |  |  |		
+| Project Card Animation	| M |	2 |  |  |		
+| Side-bar navigation	| M |	2 | 1 | 1 |		
+| Hero Image animation | L |	2 |  |  |	
+| GIF Animation	| L |	6 |  |  |	
+| Finalize Video & Git Hub Docs	| H |	1 | 2 | 2 |	
+|				
+|TOTAL |	| Estimated 30 hrs for MVP	| 40 hrs invested |	40 hrs spent |   
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -76,8 +99,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Regular Nav | H | H | -hr | -hr|
 | Adding Form | H | 1.5hr| -hr | -hr |
 | Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
+| Working with json API | H | 3hrs| 2hr | -hr |
 | Responsive | H | 3hr | -hr | -hr|
+| Render data on page  | L | 4hr | -hr | -hr|
+| Allow user to choose favorites   | L | 4hr | -hr | -hr|
+| Save their choices in firebase  | L | 4hr | -hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
 | Total | H | 15.5hrs| -hrs | -hrs |
 

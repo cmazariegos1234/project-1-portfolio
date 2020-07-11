@@ -1,4 +1,4 @@
-# Project Overview
+# Project Overview - Claudia Mazariegos Project Worksheet
 
 ## Project Schedule
 
@@ -29,13 +29,12 @@ Include link to your google sheet here.  Here is the sample [Suresh had used in 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile](https://res.cloudinary.com/techhire/image/upload/v1594490856/Mobile_Portfolio_1_GA_eek60m.png)
-- [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
+- [Tablet](https://res.cloudinary.com/techhire/image/upload/v1594491704/Tablet_Portfolio_1_GA_bvcfri.png)
 - [Desktop](https://res.cloudinary.com/techhire/image/upload/v1594490856/Desktop_Portfolio_1_GA_j3achc.png)
 
 Wireframing Resources:
 
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- Used - [Figma](https://www.figma.com/)
 
 
 ## Time/Priority Matrix 
@@ -113,6 +112,3 @@ function reverse(string) {
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
 
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)

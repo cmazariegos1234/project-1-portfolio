@@ -28,9 +28,9 @@ Include link to your google sheet here.  Here is the sample [Suresh had used in 
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
+- [Mobile](https://res.cloudinary.com/techhire/image/upload/v1594490856/Mobile_Portfolio_1_GA_eek60m.png)
 - [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
-- [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
+- [Desktop](https://res.cloudinary.com/techhire/image/upload/v1594490856/Desktop_Portfolio_1_GA_j3achc.png)
 
 Wireframing Resources:
 

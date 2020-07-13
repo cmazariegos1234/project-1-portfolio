@@ -71,10 +71,12 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Side-bar navigation	| Medium |	2 | 1 | 1 |
 | Portfolio Square Section 	| High |	6 |  6|  6|
 | Skills Section 	| High |	6 | 5 |  5|	
-| Bootstrap | Low | 4hr | -hr | -hr|
-| Project Hover | L0w | 3hr | -hr | -hr|
-| Interactive Banner | Low | 4hr | -hr | -hr|
-| Social Media Icons | Low | 1hr | -hr | -hr|
+| Bootstrap | Low | 4 | 1 | 1|
+| Project Hover | L0w | 3 | 2 | 2 |
+| Interactive Banner | Low | 4 | 3 | 3|
+| Render data on page  | Low | 4 | 4 | 4|
+| Save Data  | Low | 4 | 4 | 4|
+| Social Media Icons | Low | 1 | 3 | 3|
 | Finalize Documentation	| High |	1 | 2 | 2 |	
 |				
 |TOTAL |	| Estimated 30 hrs for MVP	| 40 hrs invested |	40 hrs spent |   
@@ -91,18 +93,18 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Side-bar navigation	| Medium |	2 | 1 | 1 |
 | Portfolio Square Section 	| High |	6 |  6|  6|
 | Skills Section 	| High |	6 | 5 |  5|	
-| Render data on page  | L | 4hr | -hr | -hr|
-| Save Data  | L | 4hr | -hr | -hr|
+| Render data on page  | Low | 4 | 4 | 4|
+| Save Data  | Low | 4 | 4 | 4|
 | Finalize Documentation	| High |	1 | 2 | 2 |	
 | Total | H | 15.5hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Social Media Icons | Low | 1hr | -hr | -hr|
+| Project Hover | Low | 3 | 3 | 3|
+| Interactive Banner | Medium | 4 | 3 | 3|
+| Bootstrap | High | 4 | 4 | 4|
+| Social Media Icons | Low | 1 | 1 | 1|
 | Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries

@@ -67,7 +67,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Create Contact Form w Jquery	| High |	1 | 4 | 4 |	
 | Create About Me	| High |	1 | 3 | 3 |	
 | Hamburger	| High |	1 | 3 | 3 |		
-| Scroll page 	| Medium |	2 |  |  |				
+| Scroll page 	| Medium |	2 | 2 | 2 |				
 | Side-bar navigation	| Medium |	2 | 1 | 1 |
 | Portfolio Square Section 	| High |	6 |  6|  6|
 | Skills Section 	| High |	6 | 5 |  5|	
@@ -89,7 +89,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Create Contact Form w Jquery	| High |	1 | 4 | 4 |	
 | Create About Me	| High |	1 | 3 | 3 |	
 | Hamburger	| High |	1 | 3 | 3 |		
-| Scroll page 	| Medium |	2 |  |  |				
+| Scroll page 	| Medium |	2 | 2 | 2 |				
 | Side-bar navigation	| Medium |	2 | 1 | 1 |
 | Portfolio Square Section 	| High |	6 |  6|  6|
 | Skills Section 	| High |	6 | 5 |  5|	

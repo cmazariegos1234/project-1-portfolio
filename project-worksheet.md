@@ -79,7 +79,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Social Media Icons | Low | 1 | 3 | 3|
 | Finalize Documentation	| High |	1 | 2 | 2 |	
 |				
-|TOTAL |	| Estimated 30 hrs for MVP	| 40 hrs invested |	40 hrs spent |   
+|TOTAL |	| Estimated 48 hrs for MVP	| 58 hrs invested |	60 hrs spent |   
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -96,7 +96,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Render data on page  | Low | 4 | 4 | 4|
 | Save Data  | Low | 4 | 4 | 4|
 | Finalize Documentation	| High |	1 | 2 | 2 |	
-| Total | H | 15.5hrs| -hrs | -hrs |
+| Total | H | 32hrs| 44hrs | 44hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -105,7 +105,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Interactive Banner | Medium | 4 | 3 | 3|
 | Bootstrap | High | 4 | 4 | 4|
 | Social Media Icons | Low | 1 | 1 | 1|
-| Total | H | 20hrs| -hrs | -hrs |
+| Total | H | 12hrs| 11hrs | 11hrs |
 
 ## Additional Libraries
 TBD

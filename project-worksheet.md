@@ -78,8 +78,7 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Save Data  | Low | 4 | 4 | 4|
 | Social Media Icons | Low | 1 | 3 | 3|
 | Finalize Documentation	| High |	1 | 2 | 2 |	
-|				
-|TOTAL |	| Estimated 48 hrs for MVP	| 58 hrs invested |	60 hrs spent |   
+|	TOTAL | Estimated 48 hrs for MVP	| 58 hrs invested |	60 hrs spent |   
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |

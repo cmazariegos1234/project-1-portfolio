@@ -6,14 +6,19 @@ h2, h3, h4, h5, h6, p */
 
 
 
-/* * {
-	border: 1px solid red;
-} */
+* {
+	box-sizing: border-box;
+}
 
 body {
     margin: 0;
+    padding: 0;
   } 
   
+.navbar {
+   display: flex;
+   justify-content: space-between;
+}
     span{
       padding: 0px;
       font-family: 'Oswald', sans-serif;

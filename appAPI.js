@@ -1,3 +1,9 @@
+
+
+
+
+
+//=========JSON===============
 console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1IzHlB4m6IQE5oqw3yIT5FJFYS8YF8vwugNhn_OKGwrw/od6/public/values?alt=json'
@@ -37,3 +43,4 @@ fetch(url)
                 $('body').append($projectDiv)
             })
         }
+        //=========JSON===============

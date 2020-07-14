@@ -1,11 +1,13 @@
 //start jquery 
 
-//NAV BAR
+//==NAV BAR==
 
-$('<nav>')
+let firstDiv = $(".nav").append('<div class ="brand-title">Hello</div>')
+let secondDiv = firstDiv.append('<div id="myId"><ul id="ulID">UL<li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
 
+//==NAV BAR end ==
 
-//==================JSON FOR PORTFOLIO===============================
+//==================JSON FOR PORTFOLIO (PAGE 3)===============================
 
 console.log($)
 
@@ -47,3 +49,4 @@ fetch(url)
                 $('body').append($projectDiv)
             })
         }
+//==================JSON FOR PORTFOLIO (PAGE 3) END===============================

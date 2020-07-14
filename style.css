@@ -5,8 +5,7 @@
 h2, h3, h4, h5, h6, p */
 
 
-
-* {
+/*======== NAV ========*/* {
 	box-sizing: border-box;
 }
 
@@ -18,11 +17,67 @@ body {
 .navbar {
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   background-color: aqua;
+   color: black;
 }
-    span{
-      padding: 0px;
-      font-family: 'Oswald', sans-serif;
-    }
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.navbar-links li {
+  list-style: none;
+
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%; 
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+  }
+}
+/*======== NAV END ========*/
   
 
     .pinkline {
@@ -38,7 +93,7 @@ body {
       align-items: center; */
     }
 
-/*========================DONE=================*/
+/*========================PAGE 1=================*/
     .pageCoverPhoto {
       display: flex;
       background-color: #e9ece5;
@@ -157,42 +212,3 @@ body {
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
   }
-
-  /* .boldtext{
-  font-size: 20px;
-  font-weight: bolder;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  align-items: center;
-  } */
-  
-  .button2 {
-    background-color: grey;
-    border-radius:6px;
-    font-size: 20px;
-    width: 90%;
-    font-family: 'Oswald', sans-serif;
-    }
-  
-  .c2013startup {
-    display: flex;
-    background-color:black;
-    width: 100%;
-    margin: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 100px;
-    color: white;
-    justify-content: flex-start;
-    align-content: flex-end;
-    align-items: center;
-  }
-/*   
-  img {
-    width: 100% ;
-    max-width: 100% ;
-    height: auto ;
-  }
-   */

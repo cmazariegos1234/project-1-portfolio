@@ -2,10 +2,13 @@
 
 //==NAV BAR==
 
-let firstDiv = $(".nav").append('<div class ="brand-title">Hello</div>')
-let secondDiv = firstDiv.append('<div id="myId"><ul id="ulID">UL<li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
+let firstDiv = $(".navbar").append('<div class ="brand-title"></div>')
+let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>')
+let secondDiv = firstDiv.append('<div><ul class="navbar-links"><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
 
 //==NAV BAR end ==
+
+
 
 //==================JSON FOR PORTFOLIO (PAGE 3)===============================
 

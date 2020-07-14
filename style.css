@@ -1,0 +1,189 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################# */
+/* 
+h2, h3, h4, h5, h6, p */
+
+
+
+/* * {
+	border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+  } 
+  
+    span{
+      padding: 0px;
+      font-family: 'Oswald', sans-serif;
+    }
+  
+
+    .pinkline {
+      display: flex;
+      background-color: pink;
+      width: 100%;
+      height: 10%;
+      /* flex-wrap: wrap;
+      flex-direction: row; */
+      height: 5px;
+      /* justify-content: center;
+      align-content: space-between;
+      align-items: center; */
+    }
+
+/*========================DONE=================*/
+    .pageCoverPhoto {
+      display: flex;
+      background-color: #e9ece5;
+      width: 100%;
+      max-width: 100% ;
+      flex-direction: row;
+      height: 400px;
+      justify-content: center;
+      align-content: space-between;
+      align-items: center;
+      background-image: url(https://res.cloudinary.com/techhire/image/upload/v1594670174/AdobeStock_314497218_Preview_vm15i6.jpg);
+      background-position: 0px;
+      background-size: cover;
+      font-family: 'Lato', sans-serif;
+  
+  }
+
+  .text{
+    aligh-items: center;
+  }
+ 
+  
+  .infoAboutMe {
+    box-shadow: 5px 5px 5px 5px grey;
+    display: flex;
+    font-size: 15px;
+    width: 90%;
+    background-color: #e9ece5;
+    width: 100%;
+    max-width: 100% ;
+    flex-direction: column;
+    height: 200px;
+    margin-right: 20px;
+    opacity: 0.93;
+    /* justify-content: flex-end; */
+    align-content: center;
+    align-items: center;
+  }
+
+  .skills-text {
+    box-shadow: 5px 5px 5px 5px grey;
+    display: flex;
+    font-size: 15px;
+    width: 90%;
+    background-color: #e9ece5;
+    width: 100%;
+    max-width: 100% ;
+    flex-direction: column;
+    height: 200px;
+    margin-right: 20px;
+    opacity: 0.93;
+    /* justify-content: flex-end; */
+    align-content: center;
+    align-items: center;
+  }
+  .portfolioPage {
+    box-shadow: 5px 5px 5px 5px grey;
+    display: flex;
+    font-size: 15px;
+    width: 90%;
+    background-color: #e9ece5;
+    width: 100%;
+    max-width: 100% ;
+    flex-direction: column;
+    height: 200px;
+    margin-right: 20px;
+    opacity: 0.93;
+    /* justify-content: flex-end; */
+    align-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    background-color: yellow;
+    border-radius:6px;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /*========================END DONE=================*/
+
+  
+  .createyourprofile {
+    display: flex;
+    background-color: 	#FFFFFF;;
+    width: 100%;
+    margin: auto;
+    /* margin auto centers a block */
+    /* overflow: scroll; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .samethreeboxes {
+    display: flex;
+    background-color:	#FFFFFF;
+    width: 100%;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* .boldtext{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  } */
+  
+  .button2 {
+    background-color: grey;
+    border-radius:6px;
+    font-size: 20px;
+    width: 90%;
+    font-family: 'Oswald', sans-serif;
+    }
+  
+  .c2013startup {
+    display: flex;
+    background-color:black;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    color: white;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: center;
+  }
+/*   
+  img {
+    width: 100% ;
+    max-width: 100% ;
+    height: auto ;
+  }
+   */

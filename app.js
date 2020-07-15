@@ -2,9 +2,17 @@
 
 //==NAV BAR==
 
-let firstDiv = $(".navbar").append('<div class ="brand-title"></div>')
+let firstDiv = $(".navbar").append('<div class ="brand-title"> Brand Name</div>')
 let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>')
-let secondDiv = firstDiv.append('<div><ul class="navbar-links"><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
+let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
+
+//getting class from the dom 
+const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
 
 //==NAV BAR end ==
 

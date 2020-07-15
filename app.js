@@ -2,17 +2,19 @@
 
 //==NAV BAR==
 
-let firstDiv = $(".navbar").append('<div class ="brand-title"> Brand Name</div>')
-let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>')
-let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
+// let firstDiv = $(".navbar").append('<div class ="brand-title"> Brand Name</div>')
+$('body').append($('<h1>'))
 
-//getting class from the dom 
-const toggleButton = document.getElementsByClassName('toggle-Button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+// let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>')
+// let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
 
-toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active')
-})
+// //getting class from the dom 
+// const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+// const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+// toggleButton.addEventListener('click', () => {
+//     navbarLinks.classList.toggle('active')
+// })
 
 //==NAV BAR end ==
 
@@ -47,7 +49,6 @@ fetch(url)
 
             const createProjectElement = (project) => {
                 const $div = $('<div>')
-                $div.addClass('JSON')
                 $div.append($('<h2>').text(project.title))
                 $div.append($('<p>').text(project.description))
                 $div.append($('<img>').attr('src', project.image))
@@ -60,4 +61,5 @@ fetch(url)
                 $('body').append($projectDiv)
             })
         }
+        
 //==================JSON FOR PORTFOLIO (PAGE 3) END===============================

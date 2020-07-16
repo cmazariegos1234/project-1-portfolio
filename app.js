@@ -69,13 +69,16 @@ let $firstEmailDiv = $(".newDiv").append('<div class ="wrapper"> <h2> Contact Us
 
 let $secondEmailDiv = $(".wrapper").append('<div id ="error_message"></div>')
 
-const $form = $(".wrapper").append('<form id ="myform">')
-const $firstFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="name" id="name"></input></div>')
-const $secondFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="subject" id="subject"></input></div>')
-const $thirdFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="phone" id="phone"></input></div>')
-const $fourthFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="email" id="email"></input></div>')
-const $formTextArea = $("#myform").append('<div class="input_field"><textarea id="message" placeholder="Message"></textarea></div>')
+const $form = $(".wrapper").append('<form id ="myform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycbxgTA1aNLl9SzqUd2q5CuUM-5g85-x4m1WGrbj_/exec">')
+
+const $firstFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="name" id="name" name="name"></input></div>')
+// const $secondFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="subject" id="subject"></input></div>')
+// const $thirdFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="phone" id="phone"></input></div>')
+const $formTextArea = $("#myform").append('<div class="input_field" for="message"><textarea id="message" name="message" rows="10" placeholder="Message"></textarea></div>')
+const $fourthFormDiv = $("#myform").append('<div class="input_field" for="email"><input type="text" placeholder="email" id="email" name="email" type="email" value=""></input></div>')
 const $formSubmitButton = $("#myform").append('<div class="btn"><input type="submit"</div>')
+// const $formThankYou = $("#myform").append('<div class="thankyou_message" style="display:none;"> <h2><em>Thanks</em> for contacting us! We will get back to you soon!</h2></div>')
+
 
 
 function validation() {

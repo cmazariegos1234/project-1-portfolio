@@ -49,13 +49,13 @@ fetch(url)
                 $div.append($('<h2>').text(project.title))
                 $div.append($('<p>').text(project.description))
                 $div.append($('<img>').attr('src', project.image))
-                $div.append($('<a>').attr('href', project.url))
+                $div.append($('<a>').attr('href', project.url).append($('<button class="button1">Click Here</button>')))
                 return $div
             }
             //$('body').append(createProjectElement(data[0]))
             data.forEach(project => {
                 const $projectDiv = createProjectElement(project)
-                $('.body').append($projectDiv)
+                $('.json').append($projectDiv)
             })
         }
         
@@ -65,7 +65,7 @@ fetch(url)
 
 //=======Email Submission======
 
-let $firstEmailDiv = $(".newDiv").append('<div class ="wrapper"> <h2> Contact Us</h2></div>')
+let $firstEmailDiv = $(".newDiv").append('<div class ="wrapper"> <h2> Get In Touch</h2></div>')
 
 let $secondEmailDiv = $(".wrapper").append('<div id ="error_message"></div>')
 
@@ -116,5 +116,11 @@ function validation() {
 
 }
 
+//=======Email Submission END======
 
-//=======Email Submission======
+//=======Social Icons======
+
+let $linkedIn = $('.socialIcons').append('<i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i>')
+
+
+//=======Social Icons END ======

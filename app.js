@@ -7,12 +7,12 @@ let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span cl
 let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
 
 //getting class from the dom 
-const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-// toggleButton.addEventListener('click', () => {
-//     navbarLinks.classList.toggle('active')
-// })  //
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
 
 //==NAV BAR end ==
 
@@ -45,7 +45,7 @@ fetch(url)
             console.log(data)
 
             const createProjectElement = (project) => {
-                const $div = $('<div>')
+                const $div = $('<div class="skills-text">')
                 $div.append($('<h2>').text(project.title))
                 $div.append($('<p>').text(project.description))
                 $div.append($('<img>').attr('src', project.image))

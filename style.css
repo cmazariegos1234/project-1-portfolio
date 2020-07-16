@@ -1,42 +1,25 @@
 
-
-/* * {
+/* 
+* {
 	border: 1px solid red;
 } */
-
-/*======== NAV ========*/
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  /* background-color: rgba(255, 192, 203, 0.329); */
+} 
+
+/*======== NAV ========*/
 
 /* * {
 	box-sizing: border-box;
 } */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: rgba(255, 192, 203, 0.329);
-  } 
-
-
-
-  .json {
-    /* position: absolute; */
-    display: flex;
-    top: 50%;
-    background: rgba(255, 192, 203, 0.329);
-    padding: 25px;
-    border-radius: 5px;
-    text-align: center;
-    margin: auto;
-    /* box-shadow:  */
-  }
-
-
-   /*---------json API setting above------ END -------*/
 .navbar {
    display: flex;
    position: relative;
@@ -129,8 +112,28 @@ body {
 
 }
 /*======== NAV END ========*/
-  
 
+/*======================== COVER PHOTO =================*/
+.pageCoverPhoto {
+  display: flex;
+  background-color: #e9ece5;
+  width: 100%;
+  max-width: 100% ;
+  flex-direction: row;
+  height: 400px;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  background-image: url(https://res.cloudinary.com/techhire/image/upload/v1594670174/AdobeStock_314497218_Preview_vm15i6.jpg);
+  background-position: 0px;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+/*========================COVER PHOTO=================*/ 
+
+
+/*======== PINK LINE ========*/
     .pinkline {
       /* display: flex; */
       background-color: pink;
@@ -143,29 +146,12 @@ body {
       align-content: space-between;
       align-items: center; */
     }
+/*======== PINK LINE END ========*/
 
-/*========================PAGE 1=================*/
-    .pageCoverPhoto {
-      display: flex;
-      background-color: #e9ece5;
-      width: 100%;
-      max-width: 100% ;
-      flex-direction: row;
-      height: 400px;
-      justify-content: center;
-      align-content: space-between;
-      align-items: center;
-      background-image: url(https://res.cloudinary.com/techhire/image/upload/v1594670174/AdobeStock_314497218_Preview_vm15i6.jpg);
-      background-position: 0px;
-      background-size: cover;
-      font-family: 'Josefin Sans', sans-serif;
-  
-  }
 
-  .text{
-    align-items: center;
-  }
+ /*======================== PAGE 1 START=================*/
  
+ /* ---- info about me ---- */
   .title{
     text-align: center;
   }
@@ -179,7 +165,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
   }
 
-
   .infoAboutMe {
     /* box-shadow: 5px 5px 5px 5px pink;
     display: flex;
@@ -190,9 +175,9 @@ body {
     max-width: 100% ;
     flex-direction: column;
     height: 200px;*/
-    margin-right: 20px;
     top: 50%;
     bottom: 50%;
+    /* background-color: #e9ece5; */
     background: rgba(255, 192, 203, 0.329);
     padding: 45px;
     border-radius: 5px;
@@ -200,24 +185,25 @@ body {
     
   }
 
+ /* ---- info about me END ---- */
+
+  /* ---- SKILLS SECTION ---- */
   .skills-text {
     /* box-shadow: 5px 5px 5px 5px pink; */
     display: flex;
     font-size: 15px;
     width: 90%;
-    background-color: #e9ece5;
+    background-color: rgba(179, 255, 0, 0.072);
+    /* background-color: #e9ece5; */
     width: 100%;
     max-width: 100% ;
     flex-direction: column;
     height: 200px;
-    margin-right: 20px;
-    opacity: 0.93;
+    /* opacity: 0.93; */
     /* justify-content: flex-end; */
     align-content: center;
     align-items: center;
   }
-
-
   .button1 {
     background-color: rgba(255, 230, 0, 0.253);
     border-radius:8px;
@@ -226,31 +212,36 @@ body {
     font-family: 'Josefin Sans', sans-serif;
   }
 
+/* ---- SKILLS SECTION END ---- */
+
+ 
+
+  /*======================== PAGE 1 END DONE=================*/
+
+
+    /*---------json API setting above------ Start -------*/
+
+  .json {
+    display: flex;
+    /* background-color:rgba(179, 255, 0, 0.072); */
+    padding: 120px ;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .skills-text {
+    justify-content: start; 
+  }
+
   img {
     width: 50%;
   }
   
-  /*======================== PAGE 1 END DONE=================*/
 
-  
+   /*---------json API setting above------ END -------*/
 
-  /*======================== bottom of page before JSON API=================*/
-  .createyourprofile {
-    display: flex;
-    background-color: 	#FFFFFF;;
-    width: 100%;
-    margin: auto;
-    /* margin auto centers a block */
-    /* overflow: scroll; */
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 200px;
-    justify-content: center;
-    align-content: space-between;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
+
 
   /*============CONTACT US FORM===============*/
   .wrapper {
@@ -266,6 +257,14 @@ body {
 
   .wrapper .input_field {
     margin-bottom: 10px;
+  }
+
+  .button4 {
+    background-color: rgba(255, 230, 0, 0.253);
+    border-radius:8px;
+    font-size: 12px;
+    width: auto;
+    font-family: 'Josefin Sans', sans-serif;
   }
   /*---------CONTACT US FORM ------ END -------*/
 

@@ -18,45 +18,45 @@ toggleButton.addEventListener('click', () => {
 
 //==================JSON FOR SKILLS (PAGE 3)===============================
 
-console.log($)
+// console.log($)
 
-// const url = 'https://spreadsheets.google.com/feeds/list/1IzHlB4m6IQE5oqw3yIT5FJFYS8YF8vwugNhn_OKGwrw/od6/public/values?alt=json'
+// const url1 = 'https://spreadsheets.google.com/feeds/list/1V0A37HYtImxAfAye9-Ci0LPM86gSPVrSDRrjmIlv83A/od6/public/values?alt=json'
 
-fetch(url)
-      .then(response => response.json())
-      .then(data => {
-          //console.log('data:', data)
-          console.log(data.feed.entry)
-          const project = data.feed.entry.map(entry => {
-            return {
-                 title: entry.gsx$title.$t,
-                image: entry.gsx$image.$t,
-                description: entry.gsx$description.$t,
-                url: entry.gsx$url.$t
-             }
-          })
-          console.log(project);
-          app(project);
-        })
+// fetch(url1)
+//       .then(response => response.json())
+//       .then(data => {
+//           //console.log('data:', data)
+//           console.log(data.feed.entry)
+//           const project2 = data.feed.entry.map(entry => {
+//             return {
+//                  title1: entry.gsx$title.$t,
+//                 image1: entry.gsx$image.$t,
+//                 description1: entry.gsx$description.$t,
+//                 url1: entry.gsx$url.$t
+//              }
+//           })
+//           // console.log(project2);
+//           app2(project2);
+//         })
 
-        const app = (data) => {
-            console.log('app is running')
-            console.log(data)
+//         const app2 = (data) => {
+//             console.log('app is running')
+//             console.log(data)
 
-            const createProjectElement = (project) => {
-                const $div = $('<div class="skills-text">')
-                $div.append($('<h2>').text(project.title))
-                $div.append($('<p>').text(project.description))
-                $div.append($('<img>').attr('src', project.image))
-                $div.append($('<a>').attr('href', project.url).append($('<button class="button1">Click Here</button>')))
-                return $div
-            }
-            //$('body').append(createProjectElement(data[0]))
-            data.forEach(project => {
-                const $projectDiv = createProjectElement(project)
-                $('.json').append($projectDiv)
-            })
-        }
+//             const createProjectElement2 = (project2) => {
+//                 const $div2 = $('<div class="skills-text">')
+//                 $div2.append($('<h2>').text(project2.title1))
+//                 $div2.append($('<p>').text(project2.description1))
+//                 $div2.append($('<img>').attr('src', project2.image1))
+//                 $div2.append($('<a>').attr('href', project2.url1))
+//                 return $div2
+//             }
+//             //$('body').append(createProjectElement(data[0]))
+//             data.forEach(project2 => {
+//                 const $projectDiv2 = createProjectElement2(project2)
+//                 $('.jsonskills').append($projectDiv2)
+//             })
+//         }
         
 //==================JSON FOR SKILLS (PAGE 3) END===============================
 
@@ -67,6 +67,7 @@ console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1IzHlB4m6IQE5oqw3yIT5FJFYS8YF8vwugNhn_OKGwrw/od6/public/values?alt=json'
 
+
 fetch(url)
       .then(response => response.json())
       .then(data => {
@@ -89,7 +90,7 @@ fetch(url)
             console.log(data)
 
             const createProjectElement = (project) => {
-                const $div = $('<div class="skills-text">')
+                const $div = $('<div class="portfolioTitle">')
                 $div.append($('<h2>').text(project.title))
                 $div.append($('<p>').text(project.description))
                 $div.append($('<img>').attr('src', project.image))
@@ -107,7 +108,7 @@ fetch(url)
 
 
 
-//=======Email Submission======
+//=======GMAIL Email Submission======
 
 let $firstEmailDiv = $(".newDiv").append('<div class ="wrapper"> <h2> Get In Touch</h2></div>')
 
@@ -160,7 +161,7 @@ const $formSubmitButton = $("#myform").append('<div class="btn"><input class ="b
 
 // }
 
-//=======Email Submission END======
+//=======GMAIL Email Submission END======
 
 //=======Social Icons======
 

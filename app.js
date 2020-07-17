@@ -4,7 +4,7 @@
 
 let firstDiv = $(".navbar").append('<div class ="brand-title"> Claudia Mazariegos</div>')
 let firstAttr = $(".navbar").append('<a href ="#" class="toggle-button"><span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>')
-let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div>')
+let secondDiv = $(".navbar").append('<div class="navbar-links"><ul><li><a href="#">About Me</a></li><li><a href="#">Portfolio</a></li><li><a href="#">Contact</a></li></ul></div>')
 
 //getting class from the dom 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
@@ -91,12 +91,16 @@ fetch(url)
 
             const createProjectElement = (project) => {
                 const $div = $('<div class="portfolioTitle">')
-                $div.append($('<h2>').text(project.title))
-                $div.append($('<p>').text(project.description))
+                $div.append($('<h2 class = "jsonFontSize">').text(project.title))
+                $div.append($('<p class = "pFontSize">').text(project.description))
                 $div.append($('<img>').attr('src', project.image))
-                $div.append($('<a>').attr('href', project.url).append($('<button class="button1">Click Here</button>')))
+                $div.append($('<a>').attr('href', project.url).append('<div><button class="button4">Click Me</button></div>'))
                 return $div
             }
+
+            // append('<div><button class="button4">Click Me</button></div>')
+
+
             //$('body').append(createProjectElement(data[0]))
             data.forEach(project => {
                 const $projectDiv = createProjectElement(project)
@@ -165,7 +169,7 @@ const $formSubmitButton = $("#myform").append('<div class="btn"><input class ="b
 
 //=======Social Icons======
 
-let $linkedIn = $('.socialIcons').append('<i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i>')
+// let $linkedIn = $('.socialIcons').append('<i class="fab fa-linkedin" ></i><i class="fab fa-github-square"></i>')
 
 
 //=======Social Icons END ======

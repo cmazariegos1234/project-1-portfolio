@@ -1,8 +1,8 @@
 
-/* 
-* {
+
+/* * {
   border: 1px solid red;
-}  */
+}   */
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
@@ -13,12 +13,17 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: rgba(179, 255, 0, 0.072);
 } 
+ 
 
 /*======== NAV ========*/
 
 /* * {
   box-sizing: border-box;
 } */
+
+.aaa {
+  padding: 1rem;
+}
 
 .navbar {
    display: flex;
@@ -53,7 +58,7 @@ body {
   display: block;
   text-decoration: none;
   color: black;
-  padding: 1rem;
+  /* padding: 1rem; */
 
 }
 
@@ -78,6 +83,8 @@ body {
   background-color: black;
   border-radius: 10px;
 }
+
+/* add tablet media query to make contact form wider*/
 
 @media (max-width: 600px) {
   .toggle-button{
@@ -326,6 +333,7 @@ font-size: 25px;
     border-radius: 5px;
     text-align: center;
     margin-bottom: ;
+    background-image: url('https://res.cloudinary.com/techhire/video/upload/v1595016057/Untitled_design_cajt44.mp4');
     /* box-shadow:  */
   }
 

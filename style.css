@@ -132,6 +132,7 @@ body {
   align-content: space-between;
   align-items: center;
   background-image: url(https://res.cloudinary.com/techhire/image/upload/v1594670174/AdobeStock_314497218_Preview_vm15i6.jpg);
+  /* background-image: url(https://res.cloudinary.com/techhire/image/upload/v1595017735/AdobeStock_355445378_Preview_vgntzs.jpg); */
   background-position: 0px;
   background-size: cover;
   font-family: 'Josefin Sans', sans-serif;
@@ -168,6 +169,7 @@ body {
   }
 
   .profilepic {
+    flex-direction: column;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
@@ -204,6 +206,7 @@ body {
     height: 200px;*/
      /* background-color: #e9ece5; */
     display: flex;
+    flex-direction: column;
     top: 50%;
     bottom: 50%;
     background: rgba(255, 192, 203, 0.329);
@@ -214,15 +217,28 @@ body {
     
   }
 
-  .paragraph {
-    top: 50%;
-    bottom: 50%;
+  @media (max-width: 400px) {
+    .paragraph{
+      /* display: flex; */
+      /* margin-left: 100px;
+      margin-right: 100px; */
+      margin: auto;
+      padding: 20px;
+      background: rgba(255, 192, 203, 0.329);
+
+    }}
+
+  p .paragraph {
+    flex-direction: column;
+    /* top: 50%;
+    bottom: 50%; */
     /* background-color: #e9ece5; */
     background: rgba(255, 192, 203, 0.329);
-    padding: 45px;
+    padding: 70px;
     border: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    margin: auto;
     border-radius: 5px;
     text-align: left;
   }
@@ -238,6 +254,7 @@ body {
   .skills-text {
     /* box-shadow: 5px 5px 5px 5px pink; */
     display: flex;
+    flex-direction: column;
     font-size: 15px;
     width: 90%;
     /* background-color: rgba(179, 255, 0, 0.072); */
@@ -245,11 +262,12 @@ body {
     width: 100%;
     max-width: 100% ;
     flex-direction: column;
-    height: 200px;
+    /* height: 200px; */
     /* opacity: 0.93; */
     /* justify-content: flex-end; */
     align-content: center;
     align-items: center;
+    object-fit: cover;
   }
 
 
@@ -280,16 +298,30 @@ body {
       text-align: center;
     }
 
-    /* .jsonSkills {
+    .jsonskills {
       display: flex;
-      padding: 120px ;
+      flex-direction: column;
+      padding: 90px ;
       border-radius: 5px;
-      top: 50%;
-      padding-bottom: 50px;
-      border-radius: 5px;
+      /* top: 50%; */
+      padding-bottom: 100px;
+      /* border-radius: 5px; */
       text-align: center;
-      margin-bottom: ;
-    } */
+      margin-bottom: 0;
+
+    }
+
+    .jsonskills .skillsImage {
+      display: flex;
+      flex-direction: column;
+      height: 90px;
+      width: 90px;
+      background-color: rgb(255, 255, 255);
+      /* border-color: teal; */
+      border: 1px solid teal;
+      border-radius: 25px;
+      object-fit: cover;
+    }
 
   .json {
     display: flex;
@@ -300,7 +332,7 @@ body {
     padding-bottom: 50px;
     border-radius: 5px;
     text-align: center;
-    margin-bottom: ;
+    margin-bottom: 0 ;
   }
 
   .jsonFontSize{

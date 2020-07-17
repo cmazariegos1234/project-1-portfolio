@@ -47,7 +47,7 @@ fetch(url1)
                 const $div2 = $('<div class="skills-text">')
                 $div2.append($('<h2>').text(project2.title1))
                 $div2.append($('<p>').text(project2.description1))
-                $div2.append($('<img>').attr('src', project2.image1))
+                $div2.append($('<img class="skillsImage">').attr('src', project2.image1))
                 $div2.append($('<a>').attr('href', project2.url1))
                 return $div2
             }

@@ -6,7 +6,7 @@
 |---|---| ---|
 |Day 1 (Monday)| Project Description | Complete
 |Day 1 (Monday)| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3 (Wednesday)| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3 (Wednesday)| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4(Thursday)| MVP & Bug Fixes | Complete
 |Day 5 (Saturday)| Final Touches | Complete
 |Day 6 (Next Monday)| Present | Incomplete

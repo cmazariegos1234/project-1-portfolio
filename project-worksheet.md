@@ -7,8 +7,8 @@
 |Day 1 (Monday)| Project Description | Complete
 |Day 1 (Monday)| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3 (Wednesday)| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4(Thursday)| MVP & Bug Fixes | Incomplete
-|Day 5 (Saturday)| Final Touches | Incomplete
+|Day 4(Thursday)| MVP & Bug Fixes | Complete
+|Day 5 (Saturday)| Final Touches | Complete
 |Day 6 (Next Monday)| Present | Incomplete
 
 
@@ -44,15 +44,15 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | --- | :---: |  :---: | 
 | Saturday - July 11 | Research ideas	| Complete 	| 1 hr |
 | Saturday - July 11   | Wireframes / Priority Matrix / Timeline	| Complete	| 4 hrs |
-| Monday - July 13 (After approval)  | HTML Framing	| Incomplete | 1 hr |
-| Tuesday - July 14  | CSS Grid/Flexbox outline Mobile	| Incomplete | 5 hrs |	
-| Tuesday - July 14  | CSS Grid/Flexbox outline Tablet & Desktop  | Incomplete | 7 hrs |	
-| Wednesday - July 15  | Create second page for "About Me Info" & part 1 of "Skills" page	 | Incomplete | 2 hrs |	
-| Thursday - July 16  | Email Subscription Jquery - under "About Me Info" page	| Incomplete | 3 hrs |	
-| Friday - July 17 | Work on Navigation Hamburger Bar with Jquery  | Incomplete | 7 hrs |
-| Saturday - July 18  | Create third page for "Portfolio" squares | Incomplete  | 5 hrs |		
-| Saturday - July 18 | Side-bar navigation with icon images	 | Incomplete | 2 hr |		
-| Sunday - July 19 | Finalize Project Notes and Documentation  | Incomplete | 2 hrs |		
+| Monday - July 13 (After approval)  | HTML Framing	| Complete | 1 hr |
+| Tuesday - July 14  | CSS Grid/Flexbox outline Mobile	| Complete | 5 hrs |	
+| Tuesday - July 14  | CSS Grid/Flexbox outline Tablet & Desktop  | Complete | 7 hrs |	
+| Wednesday - July 15  | Create second page for "About Me Info" & part 1 of "Skills" page	 | Complete | 2 hrs |	
+| Thursday - July 16  | Email Subscription Jquery - under "About Me Info" page	| Complete | 3 hrs |	
+| Friday - July 17 | Work on Navigation Hamburger Bar with Jquery  | Complete | 7 hrs |
+| Saturday - July 18  | Create third page for "Portfolio" squares | Complete  | 5 hrs |		
+| Saturday - July 18 | Side-bar navigation with icon images	 | Complete | 2 hr |		
+| Sunday - July 19 | Finalize Project Notes and Documentation  | Complete | 2 hrs |		
 
 
 ## Functional Components

@@ -106,13 +106,28 @@ https://res.cloudinary.com/techhire/image/upload/v1594641022/Image_from_iOS_bi9j
 | Social Media Icons | Low | 1 | 1 | 1|
 | Total | H | 12hrs| 11hrs | 11hrs |
 
-## Additional Libraries
-TBD
+## Additional Libraries - Resources used 
+- project 1 - used resources 
+https://www.youtube.com/watch?v=At4B7A4GOPg
+https://www.youtube.com/watch?v=WY4rvU4ImgE
+https://www.youtube.com/watch?v=GMXFMVg5E4U&vl=en
 
-## Code Snippet
 
-TBD
+## Code Snippet 
+
+ The code below allowed me to create a gmail contact me form: 
+ 
+let $firstEmailDiv = $(".newDiv").append('<div class ="wrapper"> <h2> <a name="contact" class="target1">Get In Touch</a></h2></div>')
+
+let $secondEmailDiv = $(".wrapper").append('<div id ="error_message"></div>')
+
+const $form = $(".wrapper").append('<form id ="myform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycbxgTA1aNLl9SzqUd2q5CuUM-5g85-x4m1WGrbj_/exec">')
+
+const $firstFormDiv = $("#myform").append('<div class="input_field"><input type="text" placeholder="Name" id="name" name="Name"></input></div>')
+const $formTextArea = $("#myform").append('<div class="input_field" for="message"><textarea id="message" name="message" rows="10" placeholder="Message"></textarea></div>')
+const $fourthFormDiv = $("#myform").append('<div class="input_field" for="email"><input type="text" placeholder="Email" id="email" name="email" type="email" value=""></input></div>')
+const $formSubmitButton = $("#myform").append('<div class="btn"><input class ="button4" type="submit"</div>')
 
 ## Issues and Resolutions
-TBD
+I am still trying to make my divs for my skills to be in rows on desktop and in columns on mobile. 
 
